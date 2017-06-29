@@ -1,0 +1,18 @@
+1. O que foi feito nessa semana:
+    Definido grupo.
+    Gurizada deu uma estudada em java.
+    Aprendi a usar o perceptor de audição.
+
+2. Metas para semana que vem:
+    2.1. Fluxograma detalhado do comportamento do goleiro, mostrando o que é necessário para cada decisão.
+        2.1.1. Por exemplo, para saber que a bola está a 'x' metros do goleiro, qual método que deve ser usado?
+        Nesse caso: ball.getCoords()
+
+    2.2. Descobrir como saber que a bola está vindo? Algo como: ball.getCoords() indicava que a bola estava a 10m no instante passado, mas agora está a 2m.
+    Dessa forma, ela tem uma velocidade de:
+        v = ds/dt = (10 - 2) / tempo de ciclo.
+
+    2.3. A partir do fluxograma, começar a implementar no arquivo: /RoboNewbie_1.1T/src/examples.agentSoccerTeam/SimpleGoalie.java
+
+    2.4. Começar também um floxugrama dos jogadores de linha. Para ter como base, usar o arquivo de comportamento:
+        >> /RoboNewbie_1.1T/src/examples.agentSoccerTeam/SimpleSoccer.java

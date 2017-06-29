@@ -1,0 +1,18 @@
+>> Guia de testes para comportamento:
+
+1. Abrir o simulador:
+    No terminal: rcsoccersim3d
+
+2. Abrir o NetBeans.
+    2.1. Ir na pasta 'example.agentSoccerTeam' e executar o arquivo 'Agent_SoccerTeam.java'.
+    > Esse arquivo vai rodar um time, ou um jogador espicífico (indicado pelo número da camiseta).
+    > Se quiser rodar o goleiro, por exemplo, mudar o atributo: final String id = '1';
+    > Rodar o time inteiro: final String id = '0';
+
+3. Depois disso, na pasta 'trainer':
+    2.2. Rodar o arquivo 'Agent_Trainer.java'.
+    > Esse arquivo é responsável por simular um chute na bola, por exemplo.
+        > Para determinar o teste que será feito, indicando a velocidade da bola nos eixos x,y,z:
+            > Abrir o arquivo 'TrainerThinking.java' e alterar os parâmetros do método 'startExperiment3()'.
+            >> O parâmetro 'maxExpTime' indica de quantos em quantos segundos será executado um novo teste.
+            >> Para escolher a velocidade da bola, usar o método: trainer.beamBall(xInicial, yInicial, zInicial, xFinal, yFinal, zFinal)

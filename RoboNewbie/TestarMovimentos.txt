@@ -1,0 +1,18 @@
+1 - Abrir MotionEditor (Supondo que o Motion Editor já esteja instalado):
+    *No PC do laboratório:
+        - Abrir terminal
+        - Digitar: ME
+        - Enter e vai abrir o MotionEditor
+
+2 - Para criar novos movimentos:
+    *Botão direito do mouse na aba em branco do MotionEditor
+    *'newKeyFrame'
+        Dentro desse estado, é só editar as poses do roboô
+    *Para conectar diferentes keyFrames, usar 'newTransition'
+
+3 - Salvar movimento:
+    *ctrl + s: ponham o nome do arquivo de 'test.txt'
+
+4 - Abrir outro terminal e rodar o simulador, com o comando: rcsoccersim3d
+5 - Abrir o projeto RoboNewbie no NetBeans.
+6 - Na pasta 'examples', executem o arquivo chamado 'agentKeyframeDeveloper'
